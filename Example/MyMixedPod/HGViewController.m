@@ -7,6 +7,7 @@
 //
 
 #import "HGViewController.h"
+#import <MyMixedPod/MyMixedPod-Swift.h>
 
 @interface HGViewController ()
 
