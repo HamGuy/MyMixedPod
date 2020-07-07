@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'MyMixedPod'
 ```
 
+## Packge with [Cocoapods-packager](https://github.com/CocoaPods/cocoapods-packager)
+``` shell
+pod package MyMixedPod.podspec --embedded --library --no-mangle --exclude-deps --configuration=Release  --force
+```
+
 ## Author
 
 HamGuy, wangrui15@gmail.com
