@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MyMixedPod_Example' do
+  pod 'MyMixedPod', :path => '../'
+
+  target 'MyMixedPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
